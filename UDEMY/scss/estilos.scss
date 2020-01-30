@@ -1,0 +1,51 @@
+html{
+  font-size: 15px;
+}
+.navbar-light .navbar-brand{
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.navbar-toogler{
+  font-size: 1.6rem;
+  color: #fff !important;
+}
+.bienvenidos{
+  background: url(../img/diseno.jpg);
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden;
+}
+.navbar-fixed-top{
+  background: rgba(0,0,0,0.28);
+}
+.texto-bienvenidos{
+  color: #fff;
+  margin-top: 6rem;
+}
+#menuprincipal{
+  clear:inherit;
+}
+
+
+/*Bloque quienes somos*/
+.quienes-somos{
+  background-color: black;
+}
+.servicios .fa{
+  color:blue;
+  font-size: 5rem;
+}
+.ultimos-proyectos{
+  background-color: #000;
+}
+.ultimos-proyectos .fa{
+  color:blue;
+  font-size: 5rem;
+  transition: all 2s ease;
+}
+.ultimos-proyectos .fa:hover{
+  transform: scale(1.4);
+}
+.footer{
+  background-color: blue;
+}
